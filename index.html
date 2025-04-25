@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CODE exe</title>
+  <style>
+  
+  *{
+    margin: 0%;
+    padding:0%;
+  }
+    body {
+      height: 100%;
+      width: 100%;;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      background-color:rgb(143, 147, 190);
+      /* background: linear-gradient(to right, rgba(24, 24, 63, 0.5), rgba(0,0,255,0.5)); */
+      background:linear-gradient(to right, rgb(165, 165, 214), rgba(14, 3, 110, 0.822));
+    }
+
+    header {
+      background-color: rgb(1, 8, 39);
+      color: white;
+      height:5%;
+      width: 100%;;
+      padding: 1rem 1.5rem;
+      align-items:center;
+      position: fixed;
+      border-style: solid;
+      border-width: 0px;
+      border-bottom-width: 0px;
+      display:flex;
+    }
+    .fakenav{
+      background-color: rgb(1, 8, 39);
+      height: 60px; 
+    }
+    .web{
+      display: flex;
+      margin-right: 5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    nav{
+      display:flex;
+      align-items: center;
+    }
+
+    .hero {
+      
+      color: rgb(255, 255, 255);
+      padding: 3.5rem 2rem;
+      text-align: center;
+      background:url(bg-clg.jpg),linear-gradient(to right, rgba(255,255,255,0.5), rgba(0,0,255,0.5));
+      background-blend-mode: multiply;;
+      background-position:top center;
+      background-size:cover;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .courses {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+  button a{
+    text-decoration: none;
+    color:white;
+  }
+
+    .course-card {
+      background: rgb(217, 237, 248);
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0.8px 5px 20px;
+      display: flex;
+      justify-content: space-between;
+      transition: 2s ease-in;
+    }
+
+    .course-card h3 {
+      margin-top: 0;
+      margin-bottom: 3px;;
+    }
+    .course-card button {
+    background: #0A192F;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 12px 1px rgba(61, 16, 16, 0.1);
+  }
+    .course-card button:hover{
+      box-shadow :2px 2px 20px #00008b ;
+    }
+
+    footer {
+      background-color: #0a192f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <logo>C</logo>
+    <nav>
+    <div class="web"><h2>CODE</h2><sub>exe</sub></div>
+    
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+    <fakenav></fakenav>
+  </header>
+  <div class="fakenav"></div>
+
+  <section class="hero">
+    <h2>Resources For BSc Computer Science Students</h2>
+    <p>These Resourses Are provided By Students Of Anchal College,Padampur</p>
+  </section>
+
+  <section class="courses">
+    <div class="course-card">
+      <div class="text"><h3>1ST SEMESTER</h3>
+        <p>Intro to Computer science & Python Programming +  Problem Solving Using c</p></div>
+      <button>
+        <a href="semesters/first.html">Enter</a>
+      </button>
+    </div>
+    <div class="course-card">
+      <div class="text"><h3>2ND SEMESTER</h3>
+        <p>Data Structures + Database Management System</p></div>
+      <button>
+        <a href="semesters/second.html">Enter</a></button>
+    </div>
+    <div class="course-card">
+     <div class="text"> <h3>3RD SEMESTER</h3>
+      <p>Web technologies + Operating System + Computer Organization</p></div>
+      <button><a href="semesters/third.html">Enter</a></button>
+    </div>
+    <div class="course-card">
+     <div class="text"> <h3>4TH SEMESTER</h3>
+      <p>Computer Network + Software Engineering + Opps Using C++</p></div>
+      <button><a href="semesters/fourth.html">Enter</a></button>
+    </div>
+    <div class="course-card">
+      <div class="text"><h3>5TH SEMESTER</h3>
+        <p>Java + Computer Graphics + Artificial Intelligence</p></div>
+      <button><a href="semesters/fiveth.html">Enter</a></button>
+    </div>
+    <div class="course-card">
+      <div class="text"><h3>6TH SEMESTER</h3>
+        <p>Algorithm-Design Technique+ Project Work-1</p></div>
+      <button><a href="semesters/sixth.html">Enter</a></button>
+    </div>
+    <div class="course-card">
+      <div class="text"><h3>OTHER SUBJECTS</h3>
+        <p>AEC + VAC + MDC + MINOR Subjects</p></div>
+      <button><a href="semesters/others.html">Enter</a></button>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      &copy; Dear visitor, Thanks to visited our Website.</p>
+  </footer>
+
+</body>
+</html>

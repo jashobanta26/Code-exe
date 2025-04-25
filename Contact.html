@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Code exe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background:linear-gradient(to left ,rgb(17, 45, 73),rgb(1, 8, 39))
+    }
+    header {
+      background-color: rgb(1, 8, 39);
+      color: white;
+      height:5%;
+      width: 100%;;
+      padding: 1rem 1.5rem;
+      align-items:center;
+      position: fixed;
+      border-style: solid;
+      border-width: 0px;
+      border-bottom-width: 0px;
+      display:flex;
+    }
+    .fakenav{
+      background-color: rgb(1, 8, 39);
+      height: 60px; 
+    }
+    .web{
+      display: flex;
+      margin-right: 5px;
+    }
+    sub{
+      margin-top: 22px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    nav{
+      display:flex;
+      align-items: center;
+    }
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      background-color:rgb(143, 147, 190);
+      background: linear-gradient(to right, rgb(165, 165, 214), rgba(14, 3, 110, 0.822));
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    p.description {
+      text-align: center;
+      font-size: 1.1rem;
+      color:linear-gradient(to left ,black,white);
+      margin-bottom: 30px;
+    }
+
+    .info-box {
+      background: rgb(217, 237, 248);;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      text-align: center;
+      box-shadow: 0.8px 5px 20px;
+    }
+
+    .info-box h2 {
+      color: #1a73e8;
+      margin-bottom: 10px;
+    }
+
+    .info-box a {
+      text-decoration: none;
+      color: #0d47a1;
+      font-size: 1.1rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      background: rgb(217, 237, 248);;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      box-shadow: 0.8px 5px 20px;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #1a73e8;
+      box-shadow: 0 0 5px rgba(26, 115, 232, 0.3);
+    }
+
+    button {
+      background: #1a73e8;
+      color: #fff;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #0c5dc0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <logo>C</logo>
+    <nav>
+    <div class="web"><h2>CODE</h2><sub>exe</sub></div>
+    
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+    <fakenav></fakenav>
+  </header>
+  <div class="fakenav"></div>
+
+<div class="container">
+  <h1>Contact Us</h1>
+  <p class="description">Need any subject notes? Feel free to reach out to us!</p>
+
+  <div class="info-box">
+    <h2>Email</h2>
+    <a href="mailto:codeexe96@gmail.com">codeexe96@gmail.com</a>
+  </div>
+
+  <form action="https://formsubmit.co/codeexe96@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <input type="hidden" name="_next" value="https://your-website-url.com/thank-you.html">
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<footer>
+  &copy; 2025 Code exe. All rights reserved.
+</footer>
+
+</body>
+</html>

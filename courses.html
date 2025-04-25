@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Code exe - Courses</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color:rgb(143, 147, 190);
+      background: linear-gradient(to right, rgb(165, 165, 214), rgba(14, 3, 110, 0.822));
+      color: #333;
+    }
+
+    header {
+      background-color: rgb(1, 8, 39);
+      color: white;
+      height:8%;
+      width: 100%;;
+      padding: 1rem 1.5rem;
+      
+      position: fixed;
+      border-style: solid;
+      border-width: 0px;
+      border-bottom-width: 0px;
+      display:flex;
+      align-items:center;
+    }
+    .fakenav{
+      background-color: rgb(1, 8, 39);
+      height: 60px; 
+    }
+    .web{
+      display: flex;
+      margin-right: 5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    nav{
+      display:flex;
+      align-items: center;
+    }
+
+
+    .video-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .video-section h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .videos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .video-card {
+      background: rgb(217, 237, 248);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0.8px 5px 20px;
+    }
+
+    .video-card iframe {
+      width: 100%;
+      height: 180px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .video-card h3 {
+      margin-top: 15px;
+      font-size: 18px;
+      color: #222;
+    }
+
+    footer {
+      background-color: #0d6efd;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <logo>C</logo>
+    <nav>
+    <div class="web"><h2>CODE</h2><sub>exe</sub></div>
+    
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+    <fakenav></fakenav>
+  </header>
+  <div class="fakenav"></div>
+
+  <section class="video-section">
+    <h2>Featured Coding Videos</h2>
+    <div class="videos">
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/irqbmMNs2Bo" title="C Language Full Course" allowfullscreen></iframe>
+        <h3>C Language Full Course</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/pTB0EiLXUC8" title="Python Full Course" allowfullscreen></iframe>
+        <h3>Python Full Course</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/W6NZfCO5SIk" title="JavaScript Tutorial" allowfullscreen></iframe>
+        <h3>JavaScript Tutorial for Beginners</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/RBSGKlAvoiM" title="Data Structures & Algorithms (Apna College)" allowfullscreen></iframe>
+        <h3>Data Structures & Algorithms - Apna College</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/eYpXCdvKwEQ" title="DBMS Full Course (CodeWithHarry)" allowfullscreen></iframe>
+        <h3>DBMS Full Course - CodeWithHarry</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/3nMGjRwpC5I" title="Web Technology (College Wallah)" allowfullscreen></iframe>
+        <h3>Web Technology Full Course - College Wallah</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/BGeDBfCIqas" title="Java Full Course (Apna College)" allowfullscreen></iframe>
+        <h3>Java Full Course - Apna College</h3>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/z9bZufPHFLU" title="DSA Interview Preparation (CodeWithHarry)" allowfullscreen></iframe>
+        <h3>DSA Interview Prep - CodeWithHarry</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Code exe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
